@@ -1,10 +1,9 @@
-import sys
-sys.path.insert(0, "e:/Files/University/Project/CourseWorkPython/sound_convert")
+
 from pybrain3.tools.shortcuts import buildNetwork
 from pybrain3.datasets import ClassificationDataSet, SupervisedDataSet
 from pybrain3.structure import TanhLayer, SoftmaxLayer, LinearLayer
 from pybrain3.supervised.trainers import BackpropTrainer
-from vector import WordToVectorConvert
+from vector_word import WordToVectorConvert
 
 """
 from pprint import pprint

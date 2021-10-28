@@ -1,5 +1,4 @@
-import sys
-sys.path.insert(0, "e:/Files/University/Project/CourseWorkPython/sound_convert")
+
 from letter import SoundLetter # модуль с
 import re # модуль для использования регулярных выражений
 

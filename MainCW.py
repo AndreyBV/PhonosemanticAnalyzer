@@ -1,8 +1,10 @@
 
 import sys
 import os 
-sys.path.insert(0, "e:/Files/University/Project/CourseWorkPython/sound_convert/")
-from vector import WordToVectorConvert
+currentDir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, currentDir + "\sound_convert")
+print(os.path.dirname(os.path.abspath(__file__)))
+from vector_word import WordToVectorConvert
 from neural_network import NeuNet
 from pprint import pprint
 from PyQt5 import QtWidgets, QtCore, QtGui, uic

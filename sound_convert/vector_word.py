@@ -1,5 +1,5 @@
-import sys
-sys.path.insert(0, "e:/Files/University/Project/CourseWorkPython/sound_convert")
+
+
 from extractor import SoundLetterExtractor
 from analyzer import PhonosemanticAnalyzer
 from letter import SoundLetter

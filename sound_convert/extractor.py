@@ -1,5 +1,4 @@
-import sys
-sys.path.insert(0, "e:/Files/University/Project/CourseWorkPython/sound_convert")
+
 from word import SoundWord
 
 
